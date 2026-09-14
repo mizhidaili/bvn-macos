@@ -18,6 +18,6 @@ Python build scripts use the standard library. `sips`, `iconutil`, and `codesign
 
 ## Application icon
 
-`assets/app-icon.png` is an AI-generated original raven-and-crimson icon created for this project with the built-in OpenAI image generation tool. It does not use an extracted game image or franchise crest. `assets/AppIcon.icns` is its macOS packaging, produced with `sips` and `iconutil`.
+`assets/app-icon.png` is newly AI-generated fan artwork depicting Itachi Uchiha from Masashi Kishimoto's Naruto, created for this project with the built-in OpenAI image generation tool. No game image was extracted. The character and depicted franchise insignia are not original to this project. `assets/AppIcon.icns` is its macOS packaging, produced with `sips` and `iconutil`.
 
-To the extent the project maintainers hold licensable rights in this generated icon, it is provided under GPL-3.0-or-later with the project. No exclusive ownership or trademark rights in the generated design are asserted. Its prompt and conversion method are recorded in `docs/icon.md`.
+To the extent the project maintainers hold licensable rights in this generated image, those contributions are provided under GPL-3.0-or-later with the project. No ownership of the underlying character or franchise trademarks is asserted or granted. Its prompt and conversion method are recorded in `docs/icon.md`.

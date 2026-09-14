@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/app-icon.png" width="128" alt="BVN Mac 乌鸦图标"></p>
+<p align="center"><img src="assets/app-icon.png" width="128" alt="宇智波鼬动漫手绘肖像图标"></p>
 
 # BVN for macOS
 
@@ -75,6 +75,6 @@ python3 -m unittest discover -s tests -p 'test_*.py'
 
 ## 许可与归属
 
-本适配代码和测试以 **GPL-3.0-or-later** 发布；保留原作和相关接口的归属。图标为本项目生成的原创图形，详见 [第三方与素材说明](THIRD_PARTY_NOTICES.md)。代码许可不自动授权分发原游戏素材、角色音画或 AIR 运行时。
+本适配代码和测试以 **GPL-3.0-or-later** 发布；保留原作和相关接口的归属。图标为本项目新生成的宇智波鼬同人肖像，角色属于《火影忍者》原作，详见 [第三方与素材说明](THIRD_PARTY_NOTICES.md)。代码许可不自动授权分发原游戏素材、角色音画或 AIR 运行时。
 
 参见 [LICENSE](LICENSE) 和 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
