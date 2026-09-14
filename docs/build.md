@@ -2,7 +2,7 @@
 
 [返回首页](../README.md)
 
-只想游玩，可直接 [下载 Mac 版](https://github.com/mizhidaili/bvn-macos/releases/latest/download/BVN-macOS.zip)。以下步骤供需要自行构建的人使用。
+只想游玩，可直接 [下载 Mac 版](https://github.com/mizhidaili/bvn-macos/releases/download/v0.1.1/BVN-macOS.zip)。以下步骤供需要自行构建的人使用。
 
 ## 准备
 

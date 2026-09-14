@@ -6,7 +6,7 @@
 
 ## 开始使用
 
-**[下载 Mac 版](https://github.com/mizhidaili/bvn-macos/releases/latest/download/BVN-macOS.zip)**
+**[下载 Mac 版](https://github.com/mizhidaili/bvn-macos/releases/download/v0.1.1/BVN-macOS.zip)**
 
 下载并解压，将 `死神VS火影.app` 拖到“应用程序”，双击即可游玩。无需编译或另装运行环境。
 
