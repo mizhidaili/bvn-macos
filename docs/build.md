@@ -2,9 +2,11 @@
 
 [返回首页](../README.md)
 
+只想游玩，可直接 [下载 Mac 版](https://github.com/mizhidaili/bvn-macos/releases/latest/download/BVN-macOS.zip)。以下步骤供需要自行构建的人使用。
+
 ## 准备
 
-需要一台 Mac、Python 3、Java，以及自己获取的 [macOS AIR SDK](https://airsdk.harman.com/)。本项目不附带原游戏或 SDK。
+需要一台 Mac、Python 3、Java，以及自己获取的 [macOS AIR SDK](https://airsdk.harman.com/)。源码树不附带原游戏或 SDK。
 
 目前适配的是标题显示 **V3.6Sports** 的本地旧版游戏包。包内另有 3.5.0 和 3.6Sp9 的版本标记；仅凭名称不能确定是否兼容。导入工具会自动检查 `launch.f`，当前支持的 SHA-256 是：
 

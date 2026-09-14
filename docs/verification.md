@@ -24,6 +24,6 @@ The integration harness is visibly marked as diagnostic. It uses synthetic AIR k
 - An original transformed-Ichigo teardown error was observed under ADL during diagnostic work; the movement reference was repeated in fresh processes. This is not silently counted as a clean result.
 - Not every possible move, character pairing, keyboard, controller or macOS release has been tested.
 - Local signing is ad hoc. There is no Apple Developer ID signature or public notarization.
-- No licensed full-game download is distributed by this repository.
+- The playable release contains the original game payload and captive runtime; personal save files and development artifacts are excluded. The source tree and release archive have different contents, described in THIRD_PARTY_NOTICES.md.
 
 Icon and application-name changes do not alter the original game payload or application storage ID. Their acceptance requires a rebuilt bundle with matching payload hashes, valid local signature, embedded icon metadata and a real launch; the earlier combat checks remain scoped to the unchanged gameplay payload.

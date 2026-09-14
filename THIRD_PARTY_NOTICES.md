@@ -4,15 +4,17 @@
 
 Bleach vs. Naruto is made by 剑 jian and 5DPLAY Game Studio. The upstream project is available at <https://github.com/5DPLAY-Game-Studio/BleachVsNaruto> and identifies its code license as GNU GPL version 3 or later. This community project is not an official release or an endorsement by that team.
 
-The compatibility classes retain the original package names and callable interfaces so the user's compiled game can call the storage adapters. This repository's adapter and diagnostic code is distributed under GPL-3.0-or-later; preserve applicable notices when redistributing modifications. Original game bytecode and assets are not included. The exact local competitive variant is not assumed to match the upstream source tree or its component licenses.
+The compatibility classes retain the original package names and callable interfaces so the compiled game can call the storage adapters. This repository's adapter and diagnostic code is distributed under GPL-3.0-or-later; preserve applicable notices when redistributing modifications. The exact local competitive variant is not assumed to match the upstream source tree or its component licenses.
 
-## User-supplied game files
+## Playable release and source tree
 
-Game SWF/packed bytecode, fighter sprites, character illustrations, animation, music, voices, save files, and the original Windows distribution are excluded from this repository and its published source release. Obtain and use those materials under their applicable permissions. The repository license does not grant rights to any excluded material or to franchise trademarks.
+The downloadable macOS application contains the original game bytecode, fighter sprites, character illustrations, animation, music and voices from the maintainer-supplied game package. The game payload is unchanged. Personal saves, logs and development credentials are excluded from the release.
+
+The Git source tree contains the macOS adapters, build tools, tests and icon; it does not contain the original game payload or the Windows distribution. The original game, Naruto and Bleach characters, and their artwork and audio retain their respective authorship and rights. This project's GPL notice applies to its adapter code and other stated contributions, not as a blanket license for third-party game assets or franchise trademarks.
 
 ## AIR and other tooling
 
-AIR SDK and runtime are provided separately by their vendor under their own terms: <https://airsdk.harman.com/>. A developer must supply an appropriately licensed macOS SDK. The public repository does not bundle the SDK, runtime, signing certificates, Java, or a compiled game application. Any future runtime redistribution needs a separate review of the applicable terms.
+The playable macOS application includes the AIR captive runtime and retains its embedded vendor notices. AIR is provided by HARMAN under its own terms: <https://airsdk.harman.com/>. The runtime is not relicensed under this project's GPL notice. The development SDK, Java and signing keys are not included in the release or source tree; developers building from source supply their own SDK.
 
 Python build scripts use the standard library. `sips`, `iconutil`, and `codesign` are macOS system tools, invoked locally and not redistributed.
 
